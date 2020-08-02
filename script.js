@@ -30,6 +30,20 @@ function reShape(){
     }
     // END THE YOINK
     // ***********************************
+    
+    // This inserts the proper amount of new elements, per user input.
+    for(i = 0; i < (x*x); i++)
+    {
+        const insert = document.createElement("div");
+        insert.className = "innerCell";
+        insert.addEventListener("mouseover", rat);
+        container.appendChild(insert);
+    }
+    // This is supposed to make the grid reshape to new dimensions.
+    let i;
+    let cont = document.getElementById("container");
+    cont.style.gridTemplateColumns = "repeat(x, auto)";
+    cont.style.gridTemplateRows = "repeat(x, auto)";
 }
 
 myFunction();
