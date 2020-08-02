@@ -4,8 +4,8 @@
     height: 512px;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(16, 2em);
-    grid-template-rows: repeat(16, 2em);
+    grid-template-columns: repeat(16, auto);
+    grid-template-rows: repeat(16, auto);
     grid-gap: 0px;
     text-align: center;
 }
