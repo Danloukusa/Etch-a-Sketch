@@ -14,10 +14,6 @@
     margin: 0px;
 }
 
-.innerCell:hover{
-    background-color: black;
-}
-
 .blue{
     background-color: blue;
 }
