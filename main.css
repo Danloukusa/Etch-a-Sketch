@@ -1,14 +1,12 @@
 #container{
+    margin: auto;
     display: grid;
-    grid-template-columns: repeat(16, auto);
-    margin: 50px;
-    grid-gap: 5px;
+    grid-template-columns: repeat(16, 2em);
+    grid-template-rows: repeat(16, 2em);
+    grid-gap: 1px;
 }
 
 p{
-    border: 1px solid black;
     background-color: pink;
-    width: auto;
-    height: auto;
     margin: 0px;
 }
