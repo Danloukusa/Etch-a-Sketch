@@ -1,12 +1,22 @@
 #container{
+    border: 1px solid black;
+    width: 512px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(16, 2em);
     grid-template-rows: repeat(16, 2em);
-    grid-gap: 1px;
+    grid-gap: 0px;
+    text-align: center;
 }
 
 p{
-    background-color: pink;
     margin: 0px;
+}
+
+.innerCell:hover{
+    background-color: black;
+}
+
+.blue{
+    background-color: blue;
 }
